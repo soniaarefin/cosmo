@@ -8,18 +8,8 @@ body {
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 255));
     font-family: 'Lato', sans-serif;
-    font-size: 100%;
+    font-size: 100
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
 }
-a {
-    color: #e30f5f;;
-    text-decoration: none;
-}
-/* p {
-    line-height: 25px;
-    margin-top: 0;
-    margin-bottom: 10px;
-  } */
