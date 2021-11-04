@@ -1,0 +1,17 @@
+.header {
+    background-color: black;
+    /* z-index: 300; */
+}
+.container {
+    width: 1180px;
+    margin: auto;
+    height: auto;
+    
+}
+.nav-bar {
+    display: flex;
+    padding-top: 34px;
+}
+.menu-bar {
+    
+}

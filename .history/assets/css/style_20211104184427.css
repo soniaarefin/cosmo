@@ -13,7 +13,7 @@
     display: flex;
     padding-top: 34px;
 }
-.logo__heading {
+..logo__heading {
     display: block;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.14286rem;
@@ -21,15 +21,6 @@
     font-weight: 700;
     color: #e30f5f;
     margin-bottom: 5px;
-}
-.logo__subheading {
-    display: block;
-    font-size: 0.85714rem;
-    line-height: 1;
-    letter-spacing: 0.28571rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #888;
 }
 .menu-bar {
     
