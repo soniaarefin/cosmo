@@ -76,7 +76,7 @@
     transition: all 0.4s ease-in-out;
     opacity: 0;
 }
-.menu-bar__link:after {
+.menu-bar__link_has-nested-menu:after {
     content: ' \f0d7';
     font-family: 'FontAwesome';
 }
@@ -98,8 +98,8 @@
     transition: all 0.4s ease-in-out;
     opacity: 0;
     visibility: hidden;
-    /* -webkit-transform: translateY(5px);
-    -ms-transform: translateY(5px); */
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
     transform: translateY(5px);
 }
 .manu-bar_nested_item {

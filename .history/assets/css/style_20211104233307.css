@@ -60,25 +60,11 @@
     color: #fff;
     overflow: hidden;
 }
-.menu-bar__link:before {
+.menu-bar_link::before {
     content: '';
     position: absolute;
     left: 0;
-    bottom: 25px;
-    display: block;
-    width: 100%;
-    height: 1px;
-    background: #e30f5f;
-    -webkit-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    transform: translateX(-100%);
-    -webkit-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-    opacity: 0;
-}
-.menu-bar__link:after {
-    content: ' \f0d7';
-    font-family: 'FontAwesome';
+    bo
 }
 .menu-bar__link_has-nested-menu:before {
     width: 0;
@@ -98,8 +84,8 @@
     transition: all 0.4s ease-in-out;
     opacity: 0;
     visibility: hidden;
-    /* -webkit-transform: translateY(5px);
-    -ms-transform: translateY(5px); */
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px);
     transform: translateY(5px);
 }
 .manu-bar_nested_item {
