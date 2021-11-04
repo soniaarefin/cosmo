@@ -1,8 +1,5 @@
-* {
-    box-sizing: border-box;
-}
-
 /* Body and general styles */
+
 
 html {
     font-size: 14px;
@@ -24,8 +21,6 @@ h1,h2,h3,h4,h5,h6 {
 a {
     color: #e30f5f;;
     text-decoration: none;
-    background-color: transparent;
-    cursor: pointer;
 }
 /* p {
     line-height: 25px;
@@ -36,8 +31,4 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
 }

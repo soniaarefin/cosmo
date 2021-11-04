@@ -25,7 +25,7 @@ a {
     color: #e30f5f;;
     text-decoration: none;
     background-color: transparent;
-    cursor: pointer;
+    cu
 }
 /* p {
     line-height: 25px;
@@ -36,8 +36,4 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-li {
-    display: list-item;
-    text-align: -webkit-match-parent;
 }

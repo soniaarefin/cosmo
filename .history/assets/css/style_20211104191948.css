@@ -13,7 +13,6 @@
     display: flex;
     padding-top: 34px;
     justify-content: space-between;
-    /* -webkit-box-pack: justify;  */
 }
 .logo__heading {
     display: block;
@@ -26,28 +25,14 @@
 }
 .logo__subheading {
     display: block;
-    font-size: 12px;
+    font-size: 12pxm;
+    g
     line-height: 1;
-    letter-spacing: 1px;
+    letter-spacing: 0.28571rem;
     font-weight: 300;
     text-transform: uppercase;
     color: #888;
 }
 .menu-bar {
-    font-size: 18px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.menu-bar_link {
-    position: relative;
-    display: inline-block;
-    padding: 28px 0px;
-    margin: 0px 20px;
-    font-size: 0.85714rem;
-    letter-spacing: 0.28571rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #fff;
-    overflow: hidden;
+    
 }

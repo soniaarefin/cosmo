@@ -41,13 +41,4 @@
 }
 .menu-bar_link {
     position: relative;
-    display: inline-block;
-    padding: 28px 0px;
-    margin: 0px 20px;
-    font-size: 0.85714rem;
-    letter-spacing: 0.28571rem;
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #fff;
-    overflow: hidden;
 }

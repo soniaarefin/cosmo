@@ -51,3 +51,8 @@
     color: #fff;
     overflow: hidden;
 }
+.list-menu__link {
+    position: relative;
+    display: inline-block;
+    
+}
