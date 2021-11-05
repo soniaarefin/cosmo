@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Body and general styles */
+
+html {
+    font-size: 14px;
+}
+body {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255));
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    /* font-weight: 400; */
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+a {
+    /* color: #e30f5f; */
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+a:hover {
+    text-decoration: none;
+    color: #888;
+}
+a:focus, a:active {
+    outline: none;
+    text-decoration: none;
+    color: #e30f5f;
+  }
+/* p {
+    line-height: 25px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  } */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+}
+li {
+    flo
+}
+/* li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+} */
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
