@@ -1,0 +1,139 @@
+
+/* Body and general styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 14px;
+}
+body {
+    /* position: relative; */
+    width: 100%;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255));
+    font-family: 'Lato', sans-serif;
+    font-size: 100%;
+    /* font-weight: 400; */
+    margin: 0;
+    padding: 0;
+}
+section{
+    padding: 60px 0px;
+}
+.container {
+    width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 700; */
+}
+p {
+    /* line-height: 25px; */
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+a:hover {
+    text-decoration: none;
+    color: #e30f5f;
+}
+a:focus, a:active {
+    outline: none;
+    text-decoration: none;
+    color: #e30f5f;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+.button:focus, .button:active {
+    outline: none;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    padding: 12px 86px;
+    -webkit-border-radius: 10px;
+    color: #e30f5f;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 1px solid #e30f5f;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+.button:hover {
+    border-color: #331a24;
+    background-color: #331a24;
+    color: #fff;
+}
+.column-20 {
+    float: left;
+    width: 20%;
+    height: auto;
+}
+.column-25 {
+    float: left;
+    width: 25%;
+    height: auto;
+}
+.column-33 {
+    float: left;
+    width: 33.33%;
+    /* padding: 10px; */
+    height: auto;
+}
+.column-34 {
+    float: left;
+    width: 34%;
+    height: auto;
+}
+.column-50 {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.column-60 {
+    float: left;
+    width: 60%;
+    height: auto;
+}
+.column-66 {
+    float: left;
+    width: 66%;
+    height: ;
+}
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+.row {
+    display: flex;
+}
+.divider {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #e30f5f;
+}
+hr {
+    border: 0;
+    height: 0;
+    box-sizing: content-box;
+}
