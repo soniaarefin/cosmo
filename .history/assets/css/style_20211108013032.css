@@ -205,15 +205,10 @@ section{
     margin-bottom: 60px;
 }
 .section-about_paragraph {
-    padding-left: 0;
-    padding-right: 0;
+    
 }
-
 /* About list */
 
-.section-about_list_item {
-    justify-content: center;
-}
 .section-about_list {
     /* display: block;
     width: 100%; */
@@ -231,7 +226,7 @@ section{
     display: table-cell;
     vertical-align: middle;
     padding-left: 6px;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1;
 }
 .about-icon {
