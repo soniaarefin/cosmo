@@ -374,16 +374,6 @@ section{
 /* section services */
 
 .section-services {
-    display: block;
+    display: ;
     /* padding-bottom: 90px; */
 }
-.service-container {
-    text-align: center;
-}
-.service-paragraph {
-
-}
-.sevices-icon {
-    display: block;
-}
-.

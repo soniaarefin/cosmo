@@ -118,11 +118,11 @@ a:focus, a:active {
     line-height: 1;
     margin-bottom: 60px;
 }
-/* .h2 {
+.h2 {
     font-size: 5.71429rem;
     line-height: 6.42857rem;
     margin-bottom: 60px;
-} */
+}
 .grid-container {
     display: grid;
     grid-column-gap: 40px;

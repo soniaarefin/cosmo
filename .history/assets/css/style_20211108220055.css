@@ -219,7 +219,7 @@ section{
     padding-top: 90px;
     padding-bottom: 90px;
 }
-.section-h1 {
+.section-about_h1 {
     display: block;
     color: #494949;
     font-size: 80px;
@@ -374,16 +374,8 @@ section{
 /* section services */
 
 .section-services {
-    display: block;
-    /* padding-bottom: 90px; */
-}
-.service-container {
-    text-align: center;
-}
-.service-paragraph {
 
 }
-.sevices-icon {
-    display: block;
+.services-background {
+    background-image: url();
 }
-.
