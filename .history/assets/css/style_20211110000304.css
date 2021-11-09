@@ -477,9 +477,3 @@ section{
     -ms-transform: scale(0.85) translateY(5%);
     transform: scale(0.85) translateY(5%);
 }
-.projects-grid-item__link:hover:after {
-    opacity: 1;
-    -webkit-transform: scale(1) translateY(0);
-    -ms-transform: scale(1) translateY(0);
-    transform: scale(1) translateY(0);
-}

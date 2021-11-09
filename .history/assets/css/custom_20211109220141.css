@@ -118,14 +118,12 @@ a:focus, a:active {
     line-height: 1;
     margin-bottom: 60px;
 }
-.h2 {
+/* .h2 {
     font-size: 5.71429rem;
     line-height: 6.42857rem;
-    margin-top: 0;
+    margin-top: 0
     margin-bottom: 60px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
+} */
 .grid-container {
     display: grid;
     grid-column-gap: 40px;
