@@ -375,7 +375,7 @@ section{
 .services-grid_container {
     display: grid;
     grid-column-gap: 40px;
-    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-columns: 23% 23% 23% au23%;
     /* background-color: #2196F3; */
     padding: 10px;
     justify-content: center;
@@ -399,11 +399,10 @@ section{
     margin: 8px 0;
 }
 .services-icon {
-    margin: 15px 0 12px;
+    margin: 0 12px;
     display: block;
     font-size: 60px;
     color: #e30f5f;
-    /* font-weight: 500; */
 }
 .services-span {
     font-size: 25px;
@@ -412,6 +411,3 @@ section{
     font-weight: 700;
     /* font-family: 'Montserrat', sans-serif; */
 }
-
-/* section projects */
-

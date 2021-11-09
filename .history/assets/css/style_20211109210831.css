@@ -372,14 +372,7 @@ section{
 } */
 
 /* section services */
-.services-grid_container {
-    display: grid;
-    grid-column-gap: 40px;
-    grid-template-columns: 23% 23% 23% 23%;
-    /* background-color: #2196F3; */
-    padding: 10px;
-    justify-content: center;
-}
+
 .services-grid_item {
     background-color: rgba(255, 255, 255, 0.8);
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
@@ -395,23 +388,17 @@ section{
     text-align: center;
 }
 .service-paragraph {
-    font-size: 14px;
-    margin: 8px 0;
+
 }
-.services-icon {
-    margin: 15px 0 12px;
+.sevices-icon {
     display: block;
     font-size: 60px;
     color: #e30f5f;
-    /* font-weight: 500; */
 }
 .services-span {
-    font-size: 25px;
-    line-height: 1;
+    font-size: 20px;
+    line-height: 2;
     margin: 15px 0 8px;
     font-weight: 700;
-    /* font-family: 'Montserrat', sans-serif; */
+    
 }
-
-/* section projects */
-

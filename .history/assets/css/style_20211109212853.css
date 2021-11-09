@@ -1,0 +1,972 @@
+.header {
+    background-color: black;
+    /* z-index: 300; */
+}
+
+/* logo */
+
+.wrapper-logo {
+    display: inline-block;
+    padding: 17px 0px;
+}
+.logo__heading {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 700;
+    color: #e30f5f;
+    margin-bottom: 5px;
+}
+.logo__subheading {
+    display: block;
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #888;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    /* -webkit-box-pack: justify;  */
+}
+
+
+/* li a, .dropbtn {
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    /* padding: 14px 16px; */
+    /* text-decoration: none; */
+    /* padding: 28px 0px;
+    margin: 0px 20px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400; */
+    /* text-transform: uppercase; */
+    /* overflow: hidden; */
+/* } */
+
+
+.dropdown a {
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    padding: 28px 0px;
+    margin: 0px 20px;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    /* text-transform: uppercase; */
+    /* overflow: hidden; */
+}
+.dropbtn:hover {
+    text-align: center;
+    visibility: visible;
+    display: block;
+    /* position: relative; */
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #331a24;
+    /* min-width: 160px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 100;
+    border-bottom: 3px solid #e30f5f;
+    
+}
+.dropdown-content a {
+    display: block;
+    min-width: 160px;
+    /* background: #e30f5f; */
+    /*position: absolute; */
+    top: 100%;
+    left: 0;
+    z-index: 100;
+    padding: 20px 15px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    /* opacity: 0; */
+    /* visibility: hidden; */
+    -webkit-transform: translateY(5px);
+    -ms-transform: translateY(5px); 
+    transform: translateY(5px);
+}
+.dropdown-content a:hover {
+    margin: 0;
+    padding: 18px 15px;
+    background-color: #e30f5f;
+    opacity: 1;
+    color: white;
+    /* visibility: visible; */
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* link Menu Hover */
+
+.dropbtn:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #e30f5f;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%);
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+}
+.dropbtn:hover:before {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+}
+
+/* Section Common CSS */
+
+section{
+    padding: 60px 0px;
+}
+.page-main {
+    background-color: #fff;
+}
+.page-section{
+    position: relative;
+    padding: 90px 0px;
+    z-index: 10;
+}
+
+/* Section Intro */
+
+.intro-img {
+    background-image: url(../images/abstract-g.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    /* filter: drop-shadow(); */
+}
+/* .card-overlay{
+    position: relative;
+}
+.card-overlay:after {
+    content:'';
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+    height:100%;
+    background: rgba(0, 0, 0, 0.7);
+} */
+.section-intro_span {
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+.page-section_intro_header {
+    text-align: left;
+}
+.page-section_intro_header_h1 {
+    /* display: block; */
+    font-size: 150px;
+    color: #e30f5f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-top: -5px;
+    margin-bottom: 40px;
+    line-height: 1;
+}
+.section-intro_txt {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.5;
+}
+.page-section_intro__btn {
+    margin-top: 70px;
+    text-align: center;
+    /* z-index: 500; */
+}
+.page-section_intro__btn_btn {
+    margin: 0 auto;
+}
+
+/* Section About */
+
+.page-section-about {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.section-h1 {
+    display: block;
+    color: #494949;
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.section-about_paragraph {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* About list */
+
+.section-about_list_item {
+    justify-content: center;
+}
+.section-about_list {
+    /* display: block;
+    width: 100%; */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.about_list {
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.about-list_span {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 6px;
+    font-size: 25px;
+    line-height: 1;
+}
+.about-icon {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 50px;
+    color: #e30f5f;
+    padding-right: 20px;
+}
+
+/* Section About Team */
+
+.team-member-wrapper {
+    height: 379.391px;
+    text-align: center;
+}
+.team-member {
+    max-width: 100%;
+    height: 200px;
+    border: 1px solid rgba(204, 204, 204, 0.5);
+}
+.team-member_name {
+    display: block;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 1.71429rem;
+    line-height: 2.14286rem;
+}
+.team-member_designation {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1.14286rem;
+    line-height: 2rem;
+    color: #888;
+}
+.team-grid_container {
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: 22% 22% 22% 22%;
+    /* background-color: #2196F3; */
+    padding: 10px;
+    justify-content: center;
+}
+
+/* Social Icons */
+
+.team-social_icons {
+    position: relative;
+    float: none;
+    width: 160px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.social-icon {
+    position: relative;
+    display: inline-block;
+
+}
+.social-icon {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-right: 8px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.link-social-icon {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    color: #333;
+    font-size: 8;
+    padding: 4px;
+    z-index: 0;
+}
+.link-social-icon:hover {
+    color: rgb(255, 255, 255);
+    background-color: #e30f5f;
+    border-radius: 50%;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    transition-duration: 0.2s;
+    z-index: -1;
+}
+/*.link-social-icon:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #e30f5f;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    z-index: -1;
+} */
+
+/* section services */
+
+.services-grid_item {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(0, 0, 0, 0.8); */
+    /* padding: 20px; */
+    font-size: 30px;
+    text-align: center;
+}
+.section-services {
+    display: block;
+    /* padding-bottom: 90px; */
+}
+.service-container {
+    text-align: center;
+}
+.service-paragraph {
+
+}
+.sevices-icon {
+    margin: 0 12px;
+    display: block;
+    font-size: 60px;
+    color: #e30f5f;
+}
+.services-span {
+    font-size: 25px;
+    line-height: 1;
+    margin: 15px 0 8px;
+    font-weight: 700;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+/* /////////////////////////// */
+
+
+/*  VARIABLES  */
+:root {
+    /*colors:*/
+    --very-dark-pink: #b2184e;
+    --dark-pink: #ca325b;
+    --pink: #e55171;
+    --orange: #f68f19;
+    --yellow: #fcbb21;
+    --dark-blue: #139da7;
+    --light-blue: #bfe1e0;
+    --very-dark-blue: #125f73;
+    --dark-blue-gray: #037781;
+    --shadow-blue: rgba(6,117,128,0.2);
+    --white: #fff;
+    /*gradiant*/
+    --gradientAngle: 135deg;
+    --gradientStart: var(--orange);
+    --gradientStop: var(--yellow);
+    --size: 1px;
+  }
+  /* mixin*/
+  @mixin pseudo {
+    content: "";
+    position: absolute;
+  }
+  @mixin element {
+    transform: rotate(-20deg);
+    filter: drop-shadow(12px 12px 0 var(--shadow-blue));
+  }
+  
+  /*  GENERAL  */
+  body {
+    min-height: 700px;
+    background-color: var(--light-blue);
+  }
+  .wrapper {
+    position: relative;
+    --size: 626px;
+    width: var(--size);
+    height: var(--size);
+    background-image: url(http://www.rachelbt.co.il/wp-content/uploads/2017/07/background-1.jpg);
+    border: 1px solid #aaa;
+    margin: 10px;
+    overflow: hidden;
+  }
+  /*positioning almost all the divs to absolute:*/
+  .wrapper div:not(.glass):not(.camera) {
+    position: absolute;
+  }
+  .credit{
+    --size: 626px;
+     width: var(--size);
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.4;
+  }
+  
+  /*  SUITCASE  */
+  .suitcase {
+    top: -19px;
+    right: 7px;
+    width: 184px;
+    padding-bottom: 132px;
+    margin-top: 90px;
+    background-color: var(--pink);
+    background-image: linear-gradient(
+      to left,
+      var(--dark-pink) 50%,
+      var(--pink) 50%
+    );
+    border-radius: 15px;
+    @include element;
+    &:after, &:before {
+      @include pseudo;
+      bottom: -3px;
+      left: -3px;
+      width: 40px;
+      height: 40px;
+      background-color: var(--very-dark-pink);
+      border-radius: 0 100px 0 40px;
+    }
+    &:after {
+      left: auto;
+      right: -3px;
+      border-radius: 100px 0 40px 0;
+    }
+  }
+  .handle {
+    top: -45px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 38%;
+    padding-bottom: 20%;
+    background-color: transparent;
+    border: 13px solid var(--yellow);
+    border-radius: 20px;
+  }
+  .suitcase-head {
+    top: -6px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: inherit;
+    width: 70%;
+    padding-bottom: 30%;
+    border-radius: 0 0 40px 40px;
+    box-shadow: 5px 6px 0 0 var(--very-dark-pink),
+      -5px 6px 0 0 var(--very-dark-pink);
+    z-index: 1;
+    &:before {
+      @include pseudo;
+      top: -10px;
+      left: inherit;
+      width: 100%;
+      background-color: inherit;
+      padding-bottom: 20px;
+      border-radius: 10px 10px 0 0;
+      transform: inherit;
+    }
+    &:after {
+      @include pseudo;
+      top: 50px;
+      left: inherit;
+      transform: inherit;
+      width: 60px;
+      background-color: var(--yellow);
+      padding-bottom: 18px;
+      box-shadow: 0 7px 0 var(--very-dark-pink);
+    }
+  }
+  
+  /*  SUN GLASSES  */
+  .glasses {
+    top: 291px;
+    right: 64px;
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    @include element;
+    transform: rotate(20deg);
+    &:after {
+      @include pseudo;
+      width: 100%;
+      padding-bottom: 15%;
+      background-color: var(--dark-pink);
+      z-index: -1;
+      top: 8px;
+    }
+  }
+  .glass {
+    position: relative;
+    --size: 30px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    background-color: var(--dark-pink);
+    background-image: linear-gradient(
+      var(--gradientAngle),
+      var(--gradientStart) 0%,
+      var(--gradientStart) 30%,
+      var(--gradientStop) 30%,
+      var(--gradientStop) 50%,
+      var(--gradientStart) 50%,
+      var(--gradientStart) 60%,
+      var(--gradientStop) 60%,
+      var(--gradientStop) 70%,
+      var(--gradientStart) 70%,
+      var(--gradientStart) 100%
+    );
+    box-shadow: 0 0 0 8px #cb325e;
+    &:after {
+      @include pseudo;
+      width: 100%;
+      height: 57%;
+      top: -8px;
+      right: 14px;
+      background-color: inherit;
+      border-radius: 10% 30% 0 80%;
+      z-index: -1;
+    }
+  }
+  .glass.right:after {
+    border-radius: 0 10% 80%;
+    right: auto;
+    left: 14px;
+  }
+  
+  /*  POSTCARD  */
+  .picture {
+    top: 407px;
+    left: 13px;
+    background-color: var(--pink);
+    width: 100px;
+    padding-bottom: 120px;
+    margin-top: 70px;
+    border: 10px solid #fff;
+    box-shadow: inset 0 -30px 0 0 var(--dark-blue);
+    @include element;
+  }
+  .boat {
+    /*another option for trapezoid
+     bottom: 26px;
+    left: 20px;
+    width: 60px;
+    padding-bottom: 26px;
+    transform: perspective(70px) rotateX(-40deg);
+    background-color: var(--dark-pink);*/
+    width: 36px;
+    bottom: 30px;
+    left: 20px;
+    border-top: 16px solid var(--dark-pink);
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    &:before {
+      @include pseudo;
+      top: -46px;
+      left: 18px;
+      z-index: 1;
+      width: 0;
+      height: 0;
+      border: 0 solid transparent;
+      border-bottom-width: 16px;
+      border-top-width: 14px;
+      border-left: 19px solid var(--yellow);
+      transform: rotate(6deg);
+    }
+  }
+  
+  .clouds {
+    top: 10px;
+    left: 20px;
+    width: 30px;
+    height: 10px;
+    background-color: var(--white);
+    border-radius: 20px;
+    box-shadow: -7px 9px 0 var(--white);
+    &:after {
+      @include pseudo;
+      top: 10px;
+      right: -40px;
+      width: 15px;
+      height: 15px;
+      background-color: var(--white);
+      border-radius: 50%;
+    }
+  }
+  
+  /*CAMERA*/
+  .camera-wrapper {
+    top: 223px;
+    left: 52px;
+    @include element;
+  }
+  .camera {
+    width: 110px;
+    padding-bottom: 80px;
+    background-color: var(--pink);
+    position: relarive;
+    border-radius: 10px 10px 0 0;
+    background-image: linear-gradient(
+      to bottom,
+      var(--white) 50%,
+      var(--dark-pink) 50%,
+      var(--dark-pink) 65%,
+      var(--pink) 65%,
+      var(--pink) 100%
+    );
+    z-index: 10;
+    &:before {
+      @include pseudo;
+      display: block;
+      top: -21px;
+      left: 30px;
+      width: 28px;
+      padding-bottom: 22px;
+      transform: perspective(280px) rotateX(52deg);
+      border: 11px solid var(--dark-pink);
+      z-index: -1;
+    }
+  
+    &:after {
+      @include pseudo;
+      top: 8px;
+      right: 8px;
+      --size: 10px;
+      width: var(--size);
+      height: var(--size);
+      border-radius: 50%;
+      background-color: var(--dark-pink);
+      z-index: 0;
+    }
+  }
+  
+  .lens {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    --size: 35px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    background-color: var(--dark-pink);
+    box-shadow: 0 0 0 6px var(--white), 0 0 0 12px var(--yellow);
+  
+    &:before {
+      /*creates the yellow strip and the camera button*/
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: -15px;
+      right: -30px;
+      --size: 12px;
+      width: var(--size);
+      height: 5px;
+      background-color: var(--yellow);
+      box-shadow: -80px -73px 0 0 var(--pink), -80px -75px 0 0 var(--pink);
+      z-index: 1;
+    }
+    &:after {
+      @include pseudo;
+      display: block;
+      top: 17px;
+      right: 10px;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      color: var(--white);
+      box-shadow: 0 10px 0 0,
+        5px 4px 0 0,
+        6px 1px 0 0,
+        6px -2px 0 0,
+        5px -4px 0 0,
+        4px -6px 0 0;
+      transform: rotate(20deg);
+    }
+  }
+  /*FTLYING TICKET*/
+  .flying-ticket {
+    top: 375px;
+    left: 111px;
+    width: 100px;
+    height: 55px;
+    background-color: var(--pink);
+    border-radius: 5px;
+    @include element;
+    transform: rotate(30deg);
+  
+    &:before {
+      @include pseudo;
+      bottom: 16px;
+      left: 11px;
+      --size: 2px;
+      width: 20px;
+      height: 3px;
+      /*outline: 1px solid black;*/
+      color: var(--dark-pink);
+      box-shadow: inset 0 4px 0 0,
+        0 5px 0 0,
+        20px 5px 0 0,
+        0 10px 0 0,
+        20px 10px 0 0,
+        63px 0px 0 0,
+        63px 3px 0 0,
+        63px 6px 0 0,
+        63px 9px 0 0;
+    }
+    &:after {
+      @include pseudo;
+      bottom: 2px;
+      right: 36px;
+      width: 3px;
+      height: 51px;
+      background-image: linear-gradient(
+        to bottom,
+        var(--dark-pink) 50%,
+        transparent 50%
+      );
+      background-size: 100% 8px;
+    }
+  }
+  .svg-airplain {
+    top: 8px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+  }
+  /*TOUR BOOK*/
+  .tour-book {
+    bottom: 87px;
+    right: 258px;
+    width: 80px;
+    height: 100px;
+    border-radius: 0 12px 12px 0;
+    background-color: var(--dark-blue);
+    box-shadow: inset 10px 0 0 0 var(--very-dark-blue),
+      inset 18px 0 0 0 var(--dark-blue-gray),
+      0 10px 0 var(--dark-blue-gray);
+    @include element;
+    transform: rotate(40deg);
+  
+    &:after {
+      @include pseudo;
+      bottom: 25px;
+      left: 35px;
+      width: 15px;
+      height: 3px;
+      color: var(--white);
+      background-color: var(--white);
+      border: 1px solid;
+      box-shadow: 0 11px 0 0, 8px 11px 0 0;
+    }
+  }
+  .svg-world {
+    width: 30px;
+    height: 30px;
+    stroke: #fff;
+    margin: 20px 0 0 30px;
+  }
+  /*COMPASS*/
+  .compass {
+    top: 76px;
+    left: 101px;
+    --size: 50px;
+    width: var(--size);
+    height: var(--size);
+    background-color: var(--white);
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px var(--pink), 0 0 0 20px var(--dark-blue);
+    transform: rotate(25deg);
+    filter: drop-shadow(10px -10px 0 var(--shadow-blue));
+  
+    &:after {
+      @include pseudo;
+      bottom: -12px;
+      left: -3px;
+      width: 90px;
+      height: 45px;
+      border-radius: 0 0 80px 80px;
+      background-color: rgba(0, 0, 0, 0.2);
+      transform: rotate(-50deg);
+    }
+  }
+  .hand {
+    position: absolute;
+    top: 9px;
+    left: 12px;
+    border-style: solid;
+    border-width: 0 6px 20px 6px;
+    border-color: transparent transparent var(--pink) transparent;
+    transform: rotate(-50deg);
+  
+    &:after {
+      @include pseudo;
+      top: 20px;
+      left: -6px;
+      border-style: solid;
+      border-width: 20px 6px 0 6px;
+      border-color: var(--dark-blue) transparent transparent transparent;
+    }
+  }
+  .compass-handle {
+    top: -44px;
+    right: -2px;
+    width: 32px;
+    height: 9px;
+    border: 4px solid var(--very-dark-blue);
+    border-radius: 40px;
+    transform: rotate(8deg);
+  
+    &:before {
+      @include pseudo;
+      top: 6px;
+      left: 0;
+      width: 31px;
+      height: 14px;
+      background-color: var(--dark-blue);
+      background-image: repeating-linear-gradient(
+        to left,
+        transparent,
+        transparent 5px,
+        var(--very-dark-blue) 7px,
+        var(--very-dark-blue) 8px
+      );
+      border-radius: 30px;
+      border-bottom: 2px solid var(--very-dark-blue);
+    }
+  }
+  
+  /*  AIR BALLOON  */
+  .air-balloon-wrapper {
+    bottom: 190px;
+      right: 177px;
+    @include element;
+  }
+  .air-balloon {
+    --size: 110px;
+    width: var(--size);
+    height: var(--size);
+    color: var(--dark-pink);
+    background-color: var(--dark-pink);
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px;
+    &:before {
+      @include pseudo;
+      top: 0;
+      left: 17px;
+      width: 70%;
+      height: var(--size);
+      background-color: var(--pink);
+      border-radius: inherit;
+    }
+  
+    &:after {
+      @include pseudo;
+      top: 0;
+      left: 40px;
+      width: 27%;
+      height: var(--size);
+      background-color: inherit;
+      border-radius: inherit;
+    }
+  }
+  .basket {
+    bottom: -65px;
+    left: 36px;
+    --size: 40px;
+    width: var(--size);
+    height: var(--size);
+    background-color: var(--orange);
+    box-shadow: inset 0 8px 0 0;
+    transform: perspective(88px) rotateX(-30deg);
+    /*trying to solv antialising - not working*/
+    backface-visibility: hidden;
+    outline: 1px solid transparent;
+  
+    &:before {
+      @include pseudo;
+      top: -9px;
+      left: -4px;
+      width: calc(var(--size) + 8px);
+      height: 13px;
+      background-color: var(--yellow);
+    }
+  }
+  .lines {
+    top: 100px;
+    left: 25px;
+    --size: 60px;
+    width: var(--size);
+    height: calc(var(--size) / 2);
+    background-image: repeating-linear-gradient(
+      to left,
+      var(--white),
+      var(--white) 5px,
+      transparent 5px,
+      transparent 28px
+    );
+    z-index: -1;
+    transform: perspective(88px) rotateX(-30deg);
+    /*trying to solv antialising - not working*/
+    backface-visibility: hidden;
+    outline: 1px solid transparent;
+  }
+  

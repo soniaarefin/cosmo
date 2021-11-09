@@ -138,24 +138,3 @@ a:focus, a:active {
     font-size: 30px;
     text-align: center;
 }
-/* .[class^="icon-"]:before, [class*=" icon-"]:before {
-    font-family: "freepik";
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
-    display: inline-block;
-    text-decoration: inherit;
-    width: 1em;
-    margin-right: .2em;
-    text-align: center;
-    /* opacity: .8; */
-    /* font-variant: normal;
-    text-transform: none;
-    line-height: 1em;
-    margin-left: .2em; */
-    /* font-size: 120%; */
-    /* -webkit-font-smoothing: antialiased; */
-    /* -moz-osx-font-smoothing: grayscale; */
-    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
-} */
-
