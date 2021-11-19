@@ -317,7 +317,7 @@ li.dropdown {
 }
 .services-grid_container {
     display: grid;
-    width: 1120px;
+    w
     grid-column-gap: 40px;
     grid-template-columns: 23% 23% 23% 23%;
     padding: 10px;
