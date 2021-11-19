@@ -173,19 +173,15 @@ li.dropdown {
 .team-h3 {
     display: block;
     color: #494949;
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    
     font-size: 52px;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;;
     line-height: 1;
     margin-bottom: 60px;
-}
-.team-col_100 {
-    position: relative;
-    min-height: 1px;
-    padding-right: 20px;
-    float: left;
-    width: 100%;
-    height: auto;
 }
 
 /* About list */
@@ -499,7 +495,7 @@ li.dropdown {
 /* section casting goes here */
 
 .casting-parallax {
-    /* background-image: url("../images/pexels-karolina.jpg"); */
+    background-image: url("../images/pexels-karolina.jpg");
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -519,12 +515,6 @@ li.dropdown {
     min-height: 1px;
     padding-left: 20px;
     padding-right: 20px;
-}
-.form-section_casting {
-	position: relative;
-	min-height: 1px;
-	padding-left: 20px;
-	padding-right: 20px;
 }
 
 /* form */
@@ -548,8 +538,8 @@ li.dropdown {
 }
 .form-input {
 	display: block;
-	width: 432px;
-	padding: 15px 0px;
+	width: 100%;
+	padding: 10px 15px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
 	outline: none;
@@ -607,7 +597,7 @@ li.dropdown {
 
 .form-file {
     margin-bottom: 20px;
-    width: 432px;
+    width: 100%;
     height: 70px;
     border-radius: 10px;
     border: 2px dashed #e30f5f;
@@ -624,6 +614,7 @@ li.dropdown {
     margin: 0;
     padding: 0;
     width: 100%;
+    height: 100%;
     outline: none;
     opacity: 0;
 }
@@ -648,7 +639,6 @@ li.dropdown {
 	grid-column-gap: 40px;
 	grid-template-columns: auto auto auto auto auto;
 	width: 1120px;
-    margin-bottom: 90px;
 }
 .models-grid_item {
     font-size: 30px;

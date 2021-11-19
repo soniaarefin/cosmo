@@ -136,13 +136,7 @@ a:focus, a:active {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
-.section-h1 {
-    display: block;
-    color: #494949;
-    font-size: 80px;
-    font-weight: 500;
-    margin-bottom: 60px;
-}
+
 .grid-container {
     display: grid;
     width: 1120px;
