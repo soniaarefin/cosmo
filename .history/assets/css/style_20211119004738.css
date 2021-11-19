@@ -677,10 +677,8 @@ li.dropdown {
     grid-column-gap: 20px;
     grid-template-columns: 24% 24% 24% 24%;
     /* background-color: #2196F3; */
-    /* padding: 30px; */
+    padding: 5px;
     /* justify-content: center; */
-    width: 1120px;
-    margin: 0 auto;
 }
 .footer-grid-item {
     color: #fff;
@@ -721,7 +719,7 @@ li.dropdown {
 .footer-icon {
     display: table-cell;
     vertical-align: middle;
-    font-size: 30px;
+    font-size: 2.14286rem;
     color: #e30f5f;
 }
 .footer-span_txt {
@@ -776,69 +774,7 @@ li.dropdown {
 }
 .footer-form_control {
     position: relative;
-    margin-bottom: 20px;
-}
-.footer-subscribe {
-    color: #fff;
-    display: block;
-    width: 100%;
-    font-weight: bold;
-    text-align: left;
-    font-size: 14px;
-    margin-bottom: 5px;
-}
-#footer-input {
-    position: relative;
-	display: block;
-	width: 240px;
-	padding: 10px 15px;
-	-webkit-border-radius: 10px;
-	border-radius: 10px;
-    box-sizing: border-box;
-	outline: none;
-    font-size: 14px;
-    text-align: left;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	border: 1px solid #ccc;
-	background: #fff;
-	-webkit-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-}
-.footer-link {
-	position: absolute;
-	right: 0px;
-	top: 21px;
-	bottom: 0px;
-	margin: auto;
-	width: 42px;
-	height: 34px;
-	padding: 3px 0px 0px 0px;
-	border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-	text-align: center;
-	font-size: 1.71429rem;
-	vertical-align: middle;
-}
-.footer-button {
-	display: inline-block;
-    margin-right: 15px;
-	font-size: 1.14286rem;
-	border: 1px solid #e30f5f;
-	background-color: #e30f5f;
-	color: #fff;
-	overflow: hidden;
-	-webkit-transition: all 0.4s ease-in-out;
-	transition: all 0.4s ease-in-out;
-}
-.footer-button:hover {
-	border-color: #888;
-	background-color: #888;
-	color: #fff;
-}
-.fa-solid, .fas {
-	font-weight: 900;
-	padding-top: 6px;
+    ma
 }
 
 /* footer copyright */

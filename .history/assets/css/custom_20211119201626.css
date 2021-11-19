@@ -138,7 +138,7 @@ a:focus, a:active {
 }
 .grid-container {
     display: grid;
-    width: 1120px;
+    
     grid-column-gap: 40px;
     grid-template-columns: auto auto auto auto;
     /* background-color: #2196F3; */

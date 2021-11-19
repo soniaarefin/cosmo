@@ -679,8 +679,7 @@ li.dropdown {
     /* background-color: #2196F3; */
     /* padding: 30px; */
     /* justify-content: center; */
-    width: 1120px;
-    margin: 0 auto;
+    
 }
 .footer-grid-item {
     color: #fff;
@@ -822,7 +821,7 @@ li.dropdown {
 }
 .footer-button {
 	display: inline-block;
-    margin-right: 15px;
+    margin-right: 10px;
 	font-size: 1.14286rem;
 	border: 1px solid #e30f5f;
 	background-color: #e30f5f;
