@@ -74,6 +74,7 @@ a:focus, a:active {
 .col-33 {
     float: left;
     width: 33.33%;
+    /*padding: 10px; */
     height: auto;
 }
 .col-34 {

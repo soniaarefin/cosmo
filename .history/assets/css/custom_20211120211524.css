@@ -74,6 +74,7 @@ a:focus, a:active {
 .col-33 {
     float: left;
     width: 33.33%;
+    /*padding: 10px; */
     height: auto;
 }
 .col-34 {
@@ -148,6 +149,7 @@ a:focus, a:active {
     width: 1120px;
     grid-column-gap: 40px;
     grid-template-columns: auto auto auto auto;
+    /* background-color: #2196F3; */
     padding: 10px;
     justify-content: center;
 }
