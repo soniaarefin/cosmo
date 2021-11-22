@@ -1,0 +1,10 @@
+@media screen and (max-width: 600px) {
+    .nav-bar a:not(:first-child) {display: none;}
+    .nav-bar a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+
+  
