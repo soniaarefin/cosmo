@@ -136,20 +136,6 @@ a:focus, a:active {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
-
-/* Section Common CSS */
-
-section {
-    padding: 60px 0px;
-}
-.page-main {
-    background-color: #fff;
-}
-.page-section{
-    position: relative;
-    padding: 90px 0px;
-    z-index: 10;
-}
 .section-h1 {
     display: block;
     color: #494949;
@@ -157,9 +143,6 @@ section {
     font-weight: 500;
     margin-bottom: 60px;
 }
-
-/* grid */
-
 .grid-container {
     display: grid;
     width: 1120px;

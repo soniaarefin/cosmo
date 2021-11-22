@@ -157,9 +157,6 @@ section {
     font-weight: 500;
     margin-bottom: 60px;
 }
-
-/* grid */
-
 .grid-container {
     display: grid;
     width: 1120px;

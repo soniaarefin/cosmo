@@ -136,7 +136,6 @@ a:focus, a:active {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
-
 /* Section Common CSS */
 
 section {
@@ -157,9 +156,6 @@ section {
     font-weight: 500;
     margin-bottom: 60px;
 }
-
-/* grid */
-
 .grid-container {
     display: grid;
     width: 1120px;
