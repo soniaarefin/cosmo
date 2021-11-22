@@ -1,6 +1,5 @@
-/**----------------------------------------------------------------- 
-                    [Header] 
------------------------------------------------------------------**/
+
+/* header goes here*/
 
 .header {
     background-color: black;
@@ -10,9 +9,9 @@
     justify-content: space-between;
 }
 
-/**----------------------------------------------------------------- 
-                    [Logo] 
------------------------------------------------------------------**/
+/* header ends here */
+
+/* logo */
 
 .wrapper-logo {
     display: inline-block;
@@ -37,10 +36,8 @@
     color: #888;
 }
 
-/**----------------------------------------------------------------- 
-                    [wrapper menu] 
------------------------------------------------------------------**/
-
+/* wrapper menu */
+.icon
 .wrapper-menu {
     display: flex;
 }
@@ -103,9 +100,7 @@ li.dropdown {
     display: block;
 }
 
-/**----------------------------------------------------------------- 
-                    [link Menu Hover] 
------------------------------------------------------------------**/
+/* link menu hover */
 
 .dropbtn:before {
     content: '';
@@ -130,9 +125,7 @@ li.dropdown {
     opacity: 1;
 }
 
-/**----------------------------------------------------------------- 
-                    [Section Intro] 
------------------------------------------------------------------**/
+/* section Intro goes here */
 
 .intro-img {
     background-image: url(../images/bg/abstract.png);
@@ -201,9 +194,9 @@ canvas {
 	background-size: cover;
 }
 
-/**----------------------------------------------------------------- 
-                    [ Section About] 
------------------------------------------------------------------**/
+/* section Intro ends here */
+
+/* section About goes here*/
 
 .section-about_paragraph {
     padding-left: 0;
@@ -227,9 +220,7 @@ canvas {
     height: auto;
 }
 
-/**----------------------------------------------------------------- 
-                    [About list] 
------------------------------------------------------------------**/
+/* About list */
 
 .section-about_list_item {
     justify-content: center;
@@ -260,9 +251,7 @@ canvas {
     padding-right: 20px;
 }
 
-/**----------------------------------------------------------------- 
-                    [About Team] 
------------------------------------------------------------------**/
+/* About Team */
 
 .team-member-wrapper {
     height: 379.391px;
@@ -295,9 +284,7 @@ canvas {
     justify-content: center;
 }
 
-/**----------------------------------------------------------------- 
-                    [Social Icons] 
------------------------------------------------------------------**/
+/* Social Icons */
 
 .team-social_icons {
     position: relative;
@@ -348,9 +335,9 @@ canvas {
     z-index: -1;
 }
 
-/**----------------------------------------------------------------- 
-                    [Section Services] 
------------------------------------------------------------------**/
+/* section About Team ends here */
+
+/* section services goes here*/
 
 .services-parallax {
     background-image: url("../images/bg/exoplanet.jpg");
@@ -411,9 +398,9 @@ canvas {
     font-weight: 700;
 }
 
-/**----------------------------------------------------------------- 
-                    [Section Projects] 
------------------------------------------------------------------**/
+/* section services ends here */
+
+/* section projects goes here */
 
 .projects-item_h3 {
 	display: block;
@@ -510,9 +497,7 @@ canvas {
     transition: all 0.4s ease-in-out;
 }
 
-/**----------------------------------------------------------------- 
-                    [image wrapper] 
------------------------------------------------------------------**/
+/* image wrapper */
 
 #images-wrapper {
     line-height: 0;       
@@ -533,9 +518,7 @@ canvas {
     margin-left: auto;
 }
 
-/**----------------------------------------------------------------- 
-                    [project button] 
------------------------------------------------------------------**/
+/* project button */
 
 .page-section_project__btn {
     margin-top: 10px;
@@ -545,9 +528,9 @@ canvas {
     padding-top: 15px;
 }
 
-/**----------------------------------------------------------------- 
-                    [Section Casting] 
------------------------------------------------------------------**/
+/* section projects ends here */
+
+/* section casting goes here */
 
 .casting-parallax {
     background-image: url("../images/bg/pexels-karolina.jpg");
@@ -578,9 +561,7 @@ canvas {
 	padding-right: 20px;
 }
 
-/**----------------------------------------------------------------- 
-                    [Form] 
------------------------------------------------------------------**/
+/* form */
 
 .form-control {
     margin-bottom: 20px;
@@ -618,10 +599,7 @@ canvas {
 	resize: none;
 }
 
-/**----------------------------------------------------------------- 
-                    [button] 
------------------------------------------------------------------**/
-
+/* button */
 .form-submit {
     margin-top: 40px;
     box-sizing: border-box;
@@ -659,9 +637,7 @@ canvas {
     outline: none;
 }
 
-/**----------------------------------------------------------------- 
-                    [file drag] 
------------------------------------------------------------------**/
+/* file drag */
 
 .form-file {
     margin-bottom: 20px;
@@ -686,9 +662,9 @@ canvas {
     opacity: 0;
 }
 
-/**----------------------------------------------------------------- 
-                    [Section Models] 
------------------------------------------------------------------**/
+/* section casting ends here */
+
+/* section Models start here */
 
 .section-models {
     position: relative;
@@ -725,10 +701,9 @@ canvas {
 .block-model {
     text-align: center;
 }
+/* section Models ends here */
 
-/**----------------------------------------------------------------- 
-                    [footer] 
------------------------------------------------------------------**/
+/* footer starts here */
 
 .footer {
     position: relative;
@@ -901,9 +876,7 @@ canvas {
 	color: #fff;
 }
 
-/**----------------------------------------------------------------- 
-                    [footer copyright] 
------------------------------------------------------------------**/
+/* footer copyright */
 
 .footer-copyright {
     position: relative;
@@ -927,3 +900,5 @@ canvas {
 	font-weight: bold;
 	color: #888;
 }
+
+/* footer ends here */

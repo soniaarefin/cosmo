@@ -1,6 +1,7 @@
 /**----------------------------------------------------------------- 
-                    [Header] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* header goes here*/
 
 .header {
     background-color: black;
@@ -9,10 +10,12 @@
     display: flex;
     justify-content: space-between;
 }
-
 /**----------------------------------------------------------------- 
-                    [Logo] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* header ends here */
+
+/* logo */
 
 .wrapper-logo {
     display: inline-block;
@@ -102,10 +105,10 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 /**----------------------------------------------------------------- 
-                    [link Menu Hover] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* link menu hover */
 
 .dropbtn:before {
     content: '';
@@ -129,10 +132,10 @@ li.dropdown {
     transform: translateX(0);
     opacity: 1;
 }
-
 /**----------------------------------------------------------------- 
-                    [Section Intro] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* section Intro goes here */
 
 .intro-img {
     background-image: url(../images/bg/abstract.png);
@@ -200,10 +203,12 @@ canvas {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
 /**----------------------------------------------------------------- 
-                    [ Section About] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* section Intro ends here */
+
+/* section About goes here*/
 
 .section-about_paragraph {
     padding-left: 0;
@@ -228,8 +233,9 @@ canvas {
 }
 
 /**----------------------------------------------------------------- 
-                    [About list] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* */
 
 .section-about_list_item {
     justify-content: center;

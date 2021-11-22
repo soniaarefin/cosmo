@@ -1,6 +1,7 @@
 /**----------------------------------------------------------------- 
-                    [Header] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* header goes here*/
 
 .header {
     background-color: black;
@@ -9,10 +10,12 @@
     display: flex;
     justify-content: space-between;
 }
-
 /**----------------------------------------------------------------- 
-                    [Logo] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* header ends here */
+
+/* logo */
 
 .wrapper-logo {
     display: inline-block;
@@ -102,10 +105,10 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 /**----------------------------------------------------------------- 
-                    [link Menu Hover] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* link menu hover */
 
 .dropbtn:before {
     content: '';
@@ -129,10 +132,10 @@ li.dropdown {
     transform: translateX(0);
     opacity: 1;
 }
-
 /**----------------------------------------------------------------- 
-                    [Section Intro] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* section Intro goes here */
 
 .intro-img {
     background-image: url(../images/bg/abstract.png);
@@ -200,10 +203,12 @@ canvas {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
 /**----------------------------------------------------------------- 
-                    [ Section About] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* section Intro ends here */
+
+/* section About goes here*/
 
 .section-about_paragraph {
     padding-left: 0;
@@ -226,10 +231,10 @@ canvas {
     width: 100%;
     height: auto;
 }
-
 /**----------------------------------------------------------------- 
-                    [About list] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* About list */
 
 .section-about_list_item {
     justify-content: center;
@@ -259,10 +264,10 @@ canvas {
     color: #e30f5f;
     padding-right: 20px;
 }
-
 /**----------------------------------------------------------------- 
-                    [About Team] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* About Team */
 
 .team-member-wrapper {
     height: 379.391px;
@@ -294,10 +299,10 @@ canvas {
     padding: 10px;
     justify-content: center;
 }
-
 /**----------------------------------------------------------------- 
-                    [Social Icons] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* Social Icons */
 
 .team-social_icons {
     position: relative;
@@ -347,10 +352,12 @@ canvas {
     transition-duration: 0.2s;
     z-index: -1;
 }
-
 /**----------------------------------------------------------------- 
-                    [Section Services] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* section About Team ends here */
+
+/* section services goes here*/
 
 .services-parallax {
     background-image: url("../images/bg/exoplanet.jpg");
@@ -410,10 +417,12 @@ canvas {
     margin: 15px 0 8px;
     font-weight: 700;
 }
-
 /**----------------------------------------------------------------- 
-                    [Section Projects] 
+                    [wrapper menu] 
 -----------------------------------------------------------------**/
+/* section services ends here */
+
+/* section projects goes here */
 
 .projects-item_h3 {
 	display: block;
@@ -509,7 +518,6 @@ canvas {
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
-
 /**----------------------------------------------------------------- 
                     [image wrapper] 
 -----------------------------------------------------------------**/
