@@ -68,7 +68,7 @@
     -ms-transform: rotate(-45deg) translateY(6px);
     transform: rotate(-45deg) translateY(6px);
 }
-.menu-bar.js-menu-opened {
+.list-menu.js-menu-opened {
     opacity: 1;
     visibility: visible;
     width: 100%;

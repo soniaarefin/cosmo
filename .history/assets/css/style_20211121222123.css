@@ -49,30 +49,30 @@
     position: absolute;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
-}
-.menu-responsive-button:before {
+  }
+  
+  .menu-responsive-button:before {
     top: 0;
     left: 0;
-}
-.menu-responsive-button:after {
+  }
+  
+  .menu-responsive-button:after {
     top: 8px;
     left: 0;
-}
-.menu-responsive-button.js-menu-responsive-button-active:after {
+  }
+  
+  .menu-responsive-button.js-menu-responsive-button-active:after {
     -webkit-transform: rotate(45deg) translateY(-6px);
     -ms-transform: rotate(45deg) translateY(-6px);
     transform: rotate(45deg) translateY(-6px);
-}
-.menu-responsive-button.js-menu-responsive-button-active:before {
+  }
+  
+  .menu-responsive-button.js-menu-responsive-button-active:before {
     -webkit-transform: rotate(-45deg) translateY(6px);
     -ms-transform: rotate(-45deg) translateY(6px);
     transform: rotate(-45deg) translateY(6px);
-}
-.menu-bar.js-menu-opened {
-    opacity: 1;
-    visibility: visible;
-    width: 100%;
-}
+  }
+
 /* Navigation Bar */
 
 .nav-bar {

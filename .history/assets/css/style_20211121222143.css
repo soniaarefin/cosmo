@@ -58,21 +58,19 @@
     top: 8px;
     left: 0;
 }
-.menu-responsive-button.js-menu-responsive-button-active:after {
+  
+  .menu-responsive-button.js-menu-responsive-button-active:after {
     -webkit-transform: rotate(45deg) translateY(-6px);
     -ms-transform: rotate(45deg) translateY(-6px);
     transform: rotate(45deg) translateY(-6px);
-}
-.menu-responsive-button.js-menu-responsive-button-active:before {
+  }
+  
+  .menu-responsive-button.js-menu-responsive-button-active:before {
     -webkit-transform: rotate(-45deg) translateY(6px);
     -ms-transform: rotate(-45deg) translateY(6px);
     transform: rotate(-45deg) translateY(6px);
-}
-.menu-bar.js-menu-opened {
-    opacity: 1;
-    visibility: visible;
-    width: 100%;
-}
+  }
+
 /* Navigation Bar */
 
 .nav-bar {

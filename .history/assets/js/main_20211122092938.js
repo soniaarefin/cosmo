@@ -2,7 +2,7 @@ $(document).ready(function(){
     // responsive menu
 		$('.dropbtn').on('click', function(e) {
 			e.preventDefault();
-			$('.dropbtn').removeClass('js-nested-menu-opened');
+			$('.list-menu__link_has-nested-menu').removeClass('js-nested-menu-opened');
 			$(this).toggleClass('js-nested-menu-opened');
 		});
 		// - responsive menu
