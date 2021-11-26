@@ -26,3 +26,12 @@ function myFunction() {
 	  x.className = "wrapper-menu";
 	}
   } 
+
+//   $('.projects-grid_container').masonry({
+//   // options
+//   itemSelector: '.projects-grid_item',
+//   columnWidth: 100
+// });
+
+
+}
