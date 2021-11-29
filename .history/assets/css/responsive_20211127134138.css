@@ -128,30 +128,6 @@
         grid-column-gap: 30px;
         grid-template-columns: 18% 18% 18% 18% 18%;
         width: 920px !important;
-        height: 424px;
-        margin-bottom: 60px;
-    }
-    .models-grid-item {
-        position: absolute;
-        left: 0%;
-        top: 0px;
-        display: block;
-        font-size: 30px;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-bottom: 40px;
-        width: 20%;
-    }
-    .models-fig {
-        max-width: 100%;
-        text-align: center;
-        height: 333px;
-    }
-    .models-fig img {
-        display: block;
-        width: 100%;
-        height: auto;
-        border: 1px solid rgba(204, 204, 204, 0.5);
     }
     .button {
         padding: 15px 100px;

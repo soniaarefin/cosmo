@@ -94,13 +94,13 @@
         padding: 12px 200px;
     }
     .col-40 {
-        width: 46%;
+        width: 0%;
     }
     .col-50 {
         width: 60%;
     }
     .col-60 {
-        width: 55%;
+        width: ;
     }
     .col-100 {
         padding-left: 15px;
@@ -112,46 +112,18 @@
         display: grid;
         grid-column-gap: 30px;
         grid-template-columns: 23% 23% 23% 23%;
+        padding-left: 20px;
         justify-content: center;
-        width: 950px;
-    }
-    .team-col_100 {
-        padding-right: 0px;
+        width: 930px;
     }
     .services-grid_container {
         width: 920px !important;
     }
     .casting-grid_container {
-        width: 980px;
+        width: 920px;
     }
     .models-grid_container {
-        grid-column-gap: 30px;
-        grid-template-columns: 18% 18% 18% 18% 18%;
-        width: 920px !important;
-        height: 424px;
-        margin-bottom: 60px;
-    }
-    .models-grid-item {
-        position: absolute;
-        left: 0%;
-        top: 0px;
-        display: block;
-        font-size: 30px;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-bottom: 40px;
-        width: 20%;
-    }
-    .models-fig {
-        max-width: 100%;
-        text-align: center;
-        height: 333px;
-    }
-    .models-fig img {
-        display: block;
         width: 100%;
-        height: auto;
-        border: 1px solid rgba(204, 204, 204, 0.5);
     }
     .button {
         padding: 15px 100px;
