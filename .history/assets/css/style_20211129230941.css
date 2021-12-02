@@ -9,12 +9,6 @@
     display: flex;
     justify-content: space-between;
 }
-.toggleClose {
-    display: none;
-}
-.mobileToggle {
-    display: none;
-}
 
 /**----------------------------------------------------------------- 
                     [Logo] 
@@ -755,7 +749,7 @@ canvas {
 .models-grid_container {
 	display: grid;
 	grid-column-gap: 40px;
-	grid-template-columns: auto auto auto auto auto;
+	grid-template-columns: 19% auto auto auto auto;
 	width: 1120px;
     margin-bottom: 90px;
 }

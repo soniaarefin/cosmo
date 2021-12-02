@@ -9,12 +9,6 @@
     display: flex;
     justify-content: space-between;
 }
-.toggleClose {
-    display: none;
-}
-.mobileToggle {
-    display: none;
-}
 
 /**----------------------------------------------------------------- 
                     [Logo] 
